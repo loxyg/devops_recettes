@@ -7,25 +7,29 @@
     display: grid;
     width: 100%;
     height: 200px;
-    grid-template: [header-left] "head head" 30px [header-right] [main-left] "nav main" 1fr [main-right] [footer-left] "nav foot" 30px [footer-right] / 120px 1fr;
+    grid-template: [header-left] "head head" 10vh [header-right] [main-left] "nav main" 1fr [main-right] [footer-left] "nav foot" 50px [footer-right] / 180px 1fr;
 }
 
 header {
     background-color: lime;
     grid-area: head;
+
 }
 
 nav {
     background-color: lightblue;
     grid-area: nav;
+    height: 110vh;
 }
 
 main {
     background-color: yellow;
     grid-area: main;
+    height: 100vh;
 }
 
 footer {
     background-color: red;
     grid-column: foot;
+    height: 10vh;
 }
