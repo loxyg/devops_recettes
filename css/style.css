@@ -11,25 +11,39 @@
 }
 
 header {
-    background-color: lime;
     grid-area: head;
+    border-bottom: 1px black solid;
+}
 
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    width: 3%;
 }
 
 nav {
-    background-color: lightblue;
     grid-area: nav;
     height: 110vh;
+    border-right: 1px black solid;
 }
 
 main {
-    background-color: yellow;
     grid-area: main;
     height: 100vh;
 }
 
 footer {
-    background-color: red;
     grid-column: foot;
     height: 10vh;
+    border-top: 1px black solid;
+}
+
+h2 {
+    text-align: center;
+    text-transform: bold;
 }
