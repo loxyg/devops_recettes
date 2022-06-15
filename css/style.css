@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    max-width: 100%;
 }
 
 #page {
@@ -35,6 +36,8 @@ nav {
 main {
     grid-area: main;
     height: 100vh;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 footer {
@@ -47,7 +50,3 @@ h2 {
     text-transform: bold;
 }
 
-
-.w80 {
-    width: 80%;
-}
